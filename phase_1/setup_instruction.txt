@@ -1,0 +1,13 @@
+1. Set up Raspberry Pi:
+http://www.raspberrypi.org/help/noobs-setup/
+
+2. Set up network (both graphic way and command-line way):
+https://learn.adafruit.com/adafruits-raspberry-pi-lesson-3-network-setup/overview
+
+3. Install Mplayer (before you apt-get install mpalyer, make sure update the sources list first: sudo apt-get update)
+
+4. Test live camera-video streaming:
+sender $ raspivid -w 128 -h 128 -t 0 -o - | netcat 128.16.79.23 7778
+receiver $ nc -l 7778 | mplayer -fps 31 -cache 1024 -
+
+phase 1 completed!
