@@ -20,3 +20,6 @@ http://tools.ietf.org/html/rfc6184
 
 Vandermonde FEC source code:
 https://github.com/jsh1/rep-vandermonde
+
+MP RTP draft:
+http://tools.ietf.org/html/draft-singh-avtcore-mprtp-09#section-1.1
