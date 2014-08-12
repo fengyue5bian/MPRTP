@@ -18,3 +18,5 @@ https://github.com/raspberrypi/userland/blob/master/host_applications/linux/apps
 RTP Payload Format for H.264 Video:
 http://tools.ietf.org/html/rfc6184
 
+Vandermonde FEC source code:
+https://github.com/jsh1/rep-vandermonde
